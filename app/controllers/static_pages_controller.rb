@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
   	 # render html: "hey I'm home"
   end
 
-  def help
+  def helppppp
   	# render html: "hey I need help!"
   end
 
