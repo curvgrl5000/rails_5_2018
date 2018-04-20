@@ -10,5 +10,10 @@ class StaticPagesController < ApplicationController
   def about
   	# render html: "hey I need help!"
   end
+
+  def contact
+  	# render html: "hey I need help!"
+  end
   
 end
+
