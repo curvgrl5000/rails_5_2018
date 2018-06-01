@@ -1,5 +1,11 @@
 class UsersController < ApplicationController
-  def new
-  	# everything is going load in the view that's new
+  
+  def index
   end
+
+  def show
+    @user = User.find(params[:id])
+    debugger
+  end
+
 end
