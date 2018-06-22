@@ -6,8 +6,6 @@ body, html {
   background-image: url("Think-Russia-Moscow-StBasil-502362300-Skadr-copy.jpg");
 
     /* Full height */
-    height: 100%; 
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -57,6 +55,11 @@ h1 {
   text-align: center;
 }
 
+.main_head{
+  color: white;
+  letter-spacing: .2rem;
+}
+
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -76,7 +79,6 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
@@ -93,7 +95,7 @@ p {
 
 /* footer*/
 footer{
-position:fixed;
+  position:fixed;
   bottom: 0;
   width:100%;
   margin-top: 45px; //отступ сверху 
