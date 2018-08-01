@@ -10,6 +10,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-color: red;
 }
 
 body
@@ -60,8 +62,15 @@ h1 {
   letter-spacing: .2rem;
 }
 
-whiteHeader
+a {
+  color: #14c5c9;
+  text-decoration: none;
+}
 
+a:hover {
+  color: #0bf7fc;  
+  text-decoration: none;
+}
 
 h2 {
   font-size: 1.2em;
@@ -76,6 +85,11 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+p.form {
+  color: #DDD;
+}
+
 
 /* header */
 
@@ -95,6 +109,11 @@ p {
   }
 
 }
+
+label {
+  color: white;
+}
+
 
 /* footer*/
 footer{
